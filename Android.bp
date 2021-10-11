@@ -116,6 +116,7 @@ android_library {
         "LineagePreferenceLib",
         "vendor.lineage.fastcharge-V1.0-java",
         "SystemUISharedLib",
+        "custom-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],

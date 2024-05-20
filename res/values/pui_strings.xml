@@ -53,4 +53,10 @@
 
     <!-- Quad9 DNS hostname -->
     <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 </resources>

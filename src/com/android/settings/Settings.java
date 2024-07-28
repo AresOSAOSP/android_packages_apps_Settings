@@ -498,4 +498,6 @@ public class Settings extends SettingsActivity {
     public static class HearingDevicesPairingActivity extends SettingsActivity { /* empty */ }
 
     public static class PrivateDnsSettingsActivity extends SettingsActivity { /* empty */ }
+
+    public static class PersonalisationSettingsActivity extends SettingsActivity {}
 }

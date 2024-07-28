@@ -59,4 +59,9 @@
     <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
+
+    <!-- App Title -->
+    <string name="personalisation_settings_summary">Your device, your style</string>
+    <string name="personalisation_settings_title">Personalisations</string>
+
 </resources>

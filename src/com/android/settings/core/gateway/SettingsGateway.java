@@ -207,6 +207,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
+import com.android.settings.custom.PersonalisationSettings;
+
 public class SettingsGateway {
 
     /**
@@ -400,7 +402,8 @@ public class SettingsGateway {
             AccessibilityHearingAidsFragment.class.getName(),
             HearingDevicePairingFragment.class.getName(),
             PrivateDnsSettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            PersonalisationSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -448,5 +451,6 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.PrivateDnsSettingsActivity.class.getName(),
+            Settings.PersonalisationSettingsActivity.class.getName(),
     };
 }

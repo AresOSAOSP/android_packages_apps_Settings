@@ -106,4 +106,8 @@
     <string name="menu_hide_overlay">Hide overlay</string>
     <string name="hide_applist_title">Hide applist</string>
     <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+
+    <!-- Settings -->
+    <string name="wellbeing_title">Digital Wellbeing</string>
+    <string name="wellbeing_summary">Screen time, app timers</string>
 </resources>

@@ -18,8 +18,15 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"    
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
+
+    <androidx.preference.ListPreference
+        settings:layout="@layout/derp_settings_header"
+        android:selectable="false"/>
 
     <!-- Android version -->
     <Preference

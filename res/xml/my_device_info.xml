@@ -19,7 +19,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="my_device_info_pref_screen"
-    android:title="@string/about_settings">
+    android:title="@string/about_settings"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt">    
+
+    <androidx.preference.ListPreference
+        settings:layout="@layout/derp_settings_header"
+        android:selectable="false"/>
 
     <com.android.settingslib.widget.LayoutPreference
         android:key="my_device_info_header"

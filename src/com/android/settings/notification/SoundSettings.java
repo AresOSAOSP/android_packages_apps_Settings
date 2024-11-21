@@ -32,6 +32,7 @@ import android.text.TextUtils;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.RingtonePreference;
@@ -110,6 +111,19 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         Preference phoneRingTonePreference = findPreference("phone_ringtone");
         if (phoneRingTonePreference != null && openPhoneRingtonePicker) {
             onPreferenceTreeClick(phoneRingTonePreference);
+        }
+        updateAmbientMusicPref();
+    }
+
+    private void updateAmbientMusicPref() {
+        final PreferenceScreen screen = getPreferenceScreen();
+        if (getContext().getResources().getBoolean(R.bool.config_show_now_playing) || screen == null) {
+            return;
+        }
+
+        final Preference preference = screen.findPreference("dashboard_tile_pref_com.google.intelligence.sense.ambientmusic.AmbientMusicSettingsActivity");
+        if (preference != null) {
+            screen.removePreference(preference);
         }
     }
 

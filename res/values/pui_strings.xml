@@ -110,4 +110,7 @@
     <!-- Settings -->
     <string name="wellbeing_title">Digital Wellbeing</string>
     <string name="wellbeing_summary">Screen time, app timers</string>
+    <string name="gms_enabled_title">Google</string>
+    <string name="gms_enabled_summary">Google services and preferences</string>
+
 </resources>

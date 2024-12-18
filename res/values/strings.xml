@@ -2706,6 +2706,7 @@
 
     <!-- Main Settings screen, setting option name to go into search settings -->
     <string name="search_settings">Search</string>
+    <string name="search_settings_new">Explore beyond limits</string>
 
     <!-- Display settings --><skip/>
     <!-- Sound & display settings screen, section header for settings related to display -->

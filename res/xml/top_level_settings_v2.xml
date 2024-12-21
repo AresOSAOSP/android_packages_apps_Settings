@@ -151,6 +151,15 @@
             settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
+            android:icon="@drawable/ic_homepage_google"
+            android:key="top_level_services"
+            android:order="-25"
+            android:title="@string/gms_enabled_title"
+            android:summary="@string/gms_enabled_summary"
+            settings:highlightableMenuKey="top_level_google"
+            settings:controller="com.android.settings.home.GooglePreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.system.SystemDashboardFragment"
             android:icon="@drawable/ic_settings_system_dashboard_filled"
             android:key="top_level_system"

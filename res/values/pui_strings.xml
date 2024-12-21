@@ -100,4 +100,7 @@
     <string name="enable_protection">Enable protection</string>
     <string name="hide_from_launcher_title">Hide from launcher</string>
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+
+    <string name="gms_enabled_title">Google</string>
+    <string name="gms_enabled_summary">Google resources and preferences</string>
 </resources>

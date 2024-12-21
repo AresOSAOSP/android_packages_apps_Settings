@@ -21,9 +21,16 @@
     android:key="top_level_settings">
 
     <PreferenceCategory
+        android:order="-140"
+        android:key="top_level_account_category"
+        android:layout="@layout/settingslib_preference_category_no_title">
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:order="-130"
         android:key="top_level_connectivity_category"
-        android:layout="@layout/settingslib_preference_category_no_title">
+        android:title="@string/top_level_connectivity"
+        android:layout="@layout/lmo_first_header_pref">
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.network.NetworkDashboardFragment"
             android:icon="@drawable/ic_settings_wireless_filled"
@@ -48,7 +55,8 @@
     <PreferenceCategory
         android:order="-120"
         android:key="top_level_personalize_category"
-        android:layout="@layout/settingslib_preference_category_no_title">
+        android:title="@string/top_level_personalize"
+        android:layout="@layout/lmo_first_header_pref">
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.custom.PersonalisationSettings"
@@ -107,19 +115,11 @@
             settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
     </PreferenceCategory>
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:order="-90"
-        android:key="top_level_account_category"
-        android:layout="@layout/settingslib_preference_category_no_title">
-
-    </PreferenceCategory>
-
     <PreferenceCategory
         android:order="-110"
         android:key="top_level_system_info_category"
-        android:layout="@layout/settingslib_preference_category_no_title">
+        android:title="@string/top_level_system"
+        android:layout="@layout/lmo_first_header_pref">
 
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.applications.AppDashboardFragment"
@@ -173,7 +173,8 @@
     <PreferenceCategory
         android:order="-100"
         android:key="top_level_security_privacy_category"
-        android:layout="@layout/settingslib_preference_category_no_title">
+        android:title="@string/top_level_security"
+        android:layout="@layout/lmo_first_header_pref">
 
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.accessibility.AccessibilitySettings"
